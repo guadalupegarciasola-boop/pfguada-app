@@ -32,7 +32,7 @@ function fmtDate(ds) {
   return d.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" });
 }
 
-const BASE_ATHLETES = [
+const BASE_ATHLETES = [];
   { id: 1, name: "Lucia Fernandez", avatar: "LF", sessions: [
     { id: 1, date: "2026-06-09", type: "Rodaje suave", distance: "10 km", pace: "6:00 min/km", description: "Rodaje facil, mantene conversacion todo el tiempo.", rpe: null, feeling: null, notes: "", done: false },
     { id: 2, date: "2026-06-11", type: "Series", distance: "8 x 400m", pace: "4:45 min/km", description: "Entrada en calor 15 min. 8 repeticiones de 400m. Recuperacion 90 seg caminando.", rpe: null, feeling: null, notes: "", done: false },
