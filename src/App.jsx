@@ -33,19 +33,6 @@ function fmtDate(ds) {
 }
 
 const BASE_ATHLETES = [];
-<p style={{ margin: 0, fontSize: 13, color: "#777" }}>Desde el inicio elegir "Soy entrenadora" e ingresar con tu contrasena personal.</p>
-    { id: 1, date: "2026-06-09", type: "Rodaje suave", distance: "10 km", pace: "6:00 min/km", description: "Rodaje facil, mantene conversacion todo el tiempo.", rpe: null, feeling: null, notes: "", done: false },
-    { id: 2, date: "2026-06-11", type: "Series", distance: "8 x 400m", pace: "4:45 min/km", description: "Entrada en calor 15 min. 8 repeticiones de 400m. Recuperacion 90 seg caminando.", rpe: null, feeling: null, notes: "", done: false },
-    { id: 3, date: "2026-06-14", type: "Largo", distance: "18 km", pace: "6:20 min/km", description: "Largo del domingo. Los ultimos 3 km podes soltar un poco si te sentis bien.", rpe: null, feeling: null, notes: "", done: false },
-    { id: 4, date: "2026-06-17", type: "Regenerativo", distance: "6 km", pace: "6:40 min/km", description: "Muy suave, sin presion de ritmo.", rpe: null, feeling: null, notes: "", done: false },
-    { id: 5, date: "2026-06-19", type: "Tempo", distance: "7 km", pace: "5:10 min/km", description: "10 min entrada calor + 5 km tempo + vuelta calma.", rpe: null, feeling: null, notes: "", done: false },
-  ]},
-  { id: 2, name: "Martin Gomez", avatar: "MG", sessions: [
-    { id: 1, date: "2026-06-10", type: "Regenerativo", distance: "6 km", pace: "6:30 min/km", description: "Trote muy suave, escucha el cuerpo.", rpe: null, feeling: null, notes: "", done: false },
-    { id: 2, date: "2026-06-12", type: "Tempo", distance: "5 km", pace: "5:10 min/km", description: "Entrada en calor 10 min. 5 km a ritmo tempo sostenido.", rpe: null, feeling: null, notes: "", done: false },
-    { id: 3, date: "2026-06-15", type: "Largo", distance: "16 km", pace: "6:30 min/km", description: "Largo del domingo, tranquilo.", rpe: null, feeling: null, notes: "", done: false },
-  ]},
-];
 
 const INP = { background: "#1e1e1e", border: "1px solid #2a2a2a", borderRadius: 8, padding: "10px 12px", color: "#F0EDE8", fontSize: 13, width: "100%", boxSizing: "border-box" };
 const BTN_BACK = { background: "none", border: "none", color: "#C8B89A", fontSize: 13, cursor: "pointer", padding: "0 0 14px 0" };
@@ -272,8 +259,7 @@ function InstallGuide({ onBack }) {
         <div>
           <div style={{ background: "#161616", border: "1px solid #222", borderRadius: 14, padding: 20, marginBottom: 12 }}>
             <div style={{ fontSize: 13, fontWeight: 700, color: "#C8B89A", marginBottom: 12 }}>Acceso de entrenadora</div>
-            <p style={{ margin: "0 0 12px", fontSize: 13, color: "#777" }}>Desde el inicio elegir "Soy entrenadora" e ingresar con la contrasena:</p>
-            <div style={{ background: "#111", borderRadius: 8, padding: "10px 14px", fontFamily: "monospace", fontSize: 15, color: "#C8B89A", letterSpacing: 3, textAlign: "center" }}>guada2024</div>
+            <p style={{ margin: 0, fontSize: 13, color: "#777" }}>Desde el inicio elegir "Soy entrenadora" e ingresar con tu contrasena personal.</p>
           </div>
           <div style={{ background: "#161616", border: "1px solid #222", borderRadius: 14, padding: 20, marginBottom: 12 }}>
             <div style={{ fontSize: 13, fontWeight: 700, color: "#C8B89A", marginBottom: 12 }}>Como subir una sesion</div>
