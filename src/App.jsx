@@ -33,7 +33,7 @@ function fmtDate(ds) {
 }
 
 const BASE_ATHLETES = [];
-  { id: 1, name: "Lucia Fernandez", avatar: "LF", sessions: [
+<p style={{ margin: 0, fontSize: 13, color: "#777" }}>Desde el inicio elegir "Soy entrenadora" e ingresar con tu contrasena personal.</p>
     { id: 1, date: "2026-06-09", type: "Rodaje suave", distance: "10 km", pace: "6:00 min/km", description: "Rodaje facil, mantene conversacion todo el tiempo.", rpe: null, feeling: null, notes: "", done: false },
     { id: 2, date: "2026-06-11", type: "Series", distance: "8 x 400m", pace: "4:45 min/km", description: "Entrada en calor 15 min. 8 repeticiones de 400m. Recuperacion 90 seg caminando.", rpe: null, feeling: null, notes: "", done: false },
     { id: 3, date: "2026-06-14", type: "Largo", distance: "18 km", pace: "6:20 min/km", description: "Largo del domingo. Los ultimos 3 km podes soltar un poco si te sentis bien.", rpe: null, feeling: null, notes: "", done: false },
